@@ -202,9 +202,9 @@ main {
 }
 
 /* header section */
-.hero-section{
+.hero-section {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../resources/BannerImage.png);
+        url(../resources/BannerImage.png);
     height: 800px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -214,54 +214,61 @@ main {
     align-items: center;
     justify-content: center;
     border-radius: 10px;
- 
- 
+
+
 }
-.hero-content{
+
+.hero-content {
     text-align: center;
     color: white;
-   
-   
+
+
 }
-.hero-content h3{
+
+.hero-content h3 {
     font-size: 30px;
 }
-.hero-content h1{
+
+.hero-content h1 {
     font-size: 70px;
     font-weight: bolder;
- 
+
 }
- 
- 
+
+
 /* categories section */
- 
-main{
+
+main {
     margin-top: 8rem;
 }
-.categories-content{
+
+.categories-content {
     text-align: center;
 }
-.categories-content h1{
+
+.categories-content h1 {
     font-size: 70px;
     color: #FF0000;
     font-weight: bolder;
 }
-.categories-content h4{
-   
+
+.categories-content h4 {
+
     color: #FF0000;
     font-weight: bolder;
 }
-.categories-content h2{
+
+.categories-content h2 {
     font-size: 35px;
- 
+
     font-weight: bolder;
 }
- 
+
 /* mind night section */
- 
-.mindnight-container{
+
+.mindnight-container {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../resources/Vectorrr.png);
+        url(../resources/Vectorrr.png);
     height: 800px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -272,150 +279,197 @@ main{
     justify-content: space-around;
     align-items: center;
 }
- 
-.midnight-content{
+
+.midnight-content {
     color: white;
     text-align: start;
 }
-.midnight-content h1{
-   font-size: 80px;
-   font-weight: bold;
+
+.midnight-content h1 {
+    font-size: 80px;
+    font-weight: bold;
 }
-.midnight-content p{
-  color: gray;
+
+.midnight-content p {
+    color: gray;
 }
-.midnight-content a{
-  font-size: 25px;
-  font-weight: bold;
-  color: white;
-  text-decoration: none;
- 
+
+.midnight-content a {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+
 }
-.mindnight-img img{
-  width: 370px;
+
+.mindnight-img img {
+    width: 370px;
 }
- 
+
 /* information-container */
-.information-container{
+.information-container {
     text-align: center;
     background-image: linear-gradient(#FFE7E7, #FFFAFA);
     margin: 80px 60px;
     padding: 90px 10px;
 }
- 
+
 .information-container h1 {
- font-size: 30px;
+    font-size: 30px;
 }
- 
- 
-.information-container h1 span{
- color: red;
+
+
+.information-container h1 span {
+    color: red;
 }
-.information-container button{
- background-color: red;
- color: white;
- padding: 15px 25px;
- border-radius: 10px;
- border: none;
- font-size: 20px;
- margin-top: 20px;
+
+.information-container button {
+    background-color: red;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    margin-top: 20px;
 }
- 
+
 /* best offer section style */
-.best-offer-container{
+.best-offer-container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-.best-offer-1st{
-width: 20%;
+
+.best-offer-1st {
+    width: 20%;
 }
-.best-offer-1st h3{
-color: red;
-font-size: 25px;
+
+.best-offer-1st h3 {
+    color: red;
+    font-size: 25px;
 }
-.best-offer-1st h1{
- 
-font-size: 50px;
-font-family: Arial, Helvetica, sans-serif;
+
+.best-offer-1st h1 {
+
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 .best-offer-1st h2 {
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     color: red;
-   }
- 
-.best-offer-1st p{
- 
-color: gray;
 }
- 
-.best-offer-img-container{
+
+.best-offer-1st p {
+
+    color: gray;
+}
+
+.best-offer-img-container {
     border: 15px solid red;
     border-radius: 100%;
     padding: 30px;
 }
- 
-.best-offer-img{
+
+.best-offer-img {
     width: 300px;
 }
- 
+
 /* holidays section style */
-.holidays-container{
+.holidays-container {
     margin-top: 100px;
 }
-.holidays-content{
-  text-align: center;
+
+.holidays-content {
+    text-align: center;
 }
-.holidays-content h4{
-  font-size: 18px;
+
+.holidays-content h4 {
+    font-size: 18px;
 }
-.holidays-content h1{
-  font-size: 70px;
+
+.holidays-content h1 {
+    font-size: 70px;
 }
-.holidays-content h1 span{
- color: red;
+
+.holidays-content h1 span {
+    color: red;
 }
-.holidays-content p{
- font-size: 16px;
- color: gray;
- 
- text-align: center;
+
+.holidays-content p {
+    font-size: 16px;
+    color: gray;
+
+    text-align: center;
 }
- 
-.holidays-image-container{
-   
+
+.holidays-image-container {
+
     height: 700px;
     display: flex;
     align-items: center;
     margin-top: 100px;
     justify-content: center;
-   
-   
+
+
 }
-.possition{
- 
+
+.possition {
+
     position: relative;
-   
+
 }
- 
-.box-img{
+
+.box-img {
     position: absolute;
     width: 500px;
     left: 20px;
- 
+
 }
-.wow-woman-img{
+
+.wow-woman-img {
     position: absolute;
- right: -1px;
- top: -150px;
- width: 400px;
+    right: -1px;
+    top: -150px;
+    width: 400px;
 }
-.percent-discount-img{
+
+.percent-discount-img {
     position: relative;
     width: 250px;
     right: -800px;
     top: -110px;
-   
+
 }
- 
+
+.awesome-portfolio-container {
+    margin-left: 180px;
+}
+
+.awesome-content h4 {
+    font-size: 18px;
+    color: red;
+}
+
+.awesome-content h1 {
+    font-size: 50px;
+}
+
+.awesome-content p {
+    font-size: 16px;
+    color: gray;
+
+}
+
+.awesome-img-main-div {
+    display: flex;
+    justify-content: start;
+    margin-top: 80px;
+}
+
+.awesome-img {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 15px;
+}
