@@ -1,29 +1,32 @@
 /* header section */
-.hero-section{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-    url(../resources/BannerImage.png);
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../resources/BannerImage.png);
     height: 800px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     margin: 40px 60px;
-    display: flex; 
+    display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
 
 
 }
-.hero-content{
+
+.hero-content {
     text-align: center;
     color: white;
-    
-    
+
+
 }
-.hero-content h3{
+
+.hero-content h3 {
     font-size: 30px;
 }
-.hero-content h1{
+
+.hero-content h1 {
     font-size: 70px;
     font-weight: bolder;
 
@@ -32,6 +35,206 @@
 
 /* categories section */
 
+main {
+    margin-top: 8rem;
+}
+
+.categories-content {
+    text-align: center;
+}
+
+.categories-content h1 {
+    font-size: 70px;
+    color: #FF0000;
+    font-weight: bolder;
+}
+
+.categories-content h4 {
+
+    color: #FF0000;
+    font-weight: bolder;
+}
+
+.categories-content h2 {
+    font-size: 35px;
+
+    font-weight: bolder;
+}
+
+/* mind night section */
+
+.mindnight-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../resources/Vectorrr.png);
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 40px 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.midnight-content {
+    color: white;
+    text-align: start;
+}
+
+.midnight-content h1 {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.midnight-content p {
+    color: gray;
+}
+
+.midnight-content a {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+
+}
+
+.mindnight-img img {
+    width: 370px;
+}
+
+/* information-container */
+.information-container {
+    text-align: center;
+    background-image: linear-gradient(#FFE7E7, #FFFAFA);
+    margin: 80px 60px;
+    padding: 90px 10px;
+}
+
+.information-container h1 {
+    font-size: 30px;
+}
+
+
+.information-container h1 span {
+    color: red;
+}
+
+.information-container button {
+    background-color: red;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* best offer section style */
+.best-offer-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.best-offer-1st {
+    width: 20%;
+}
+
+.best-offer-1st h3 {
+    color: red;
+    font-size: 25px;
+}
+
+.best-offer-1st h1 {
+
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.best-offer-1st h2 {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+.best-offer-1st p {
+
+    color: gray;
+}
+
+.best-offer-img-container {
+    border: 15px solid red;
+    border-radius: 100%;
+    padding: 30px;
+}
+
+.best-offer-img {
+    width: 300px;
+}
+
+.Holidays-container {
+    margin-top: 100px;
+}
+
+.Holidays-Content {
+    text-align: center;
+}
+
+.Holidays-Content h4 {
+    font-size: 18px;
+}
+
+.Holidays-Content h1 {
+    font-size: 70px;
+}
+
+.Holidays-Content h1 span {
+    color: red;
+}
+
+.hero-content p {
+    font-size: 16px;
+    width: 40px;
+    color: gray;
+    text-align: center;
+
+}
+
+/* header section */
+.hero-section{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../resources/BannerImage.png);
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 40px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+ 
+ 
+}
+.hero-content{
+    text-align: center;
+    color: white;
+   
+   
+}
+.hero-content h3{
+    font-size: 30px;
+}
+.hero-content h1{
+    font-size: 70px;
+    font-weight: bolder;
+ 
+}
+ 
+ 
+/* categories section */
+ 
 main{
     margin-top: 8rem;
 }
@@ -50,14 +253,14 @@ main{
 }
 .categories-content h2{
     font-size: 35px;
-
+ 
     font-weight: bolder;
 }
-
+ 
 /* mind night section */
-
+ 
 .mindnight-container{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../resources/Vectorrr.png);
     height: 800px;
     background-size: cover;
@@ -69,7 +272,7 @@ main{
     justify-content: space-around;
     align-items: center;
 }
-
+ 
 .midnight-content{
     color: white;
     text-align: start;
@@ -86,12 +289,12 @@ main{
   font-weight: bold;
   color: white;
   text-decoration: none;
-
+ 
 }
 .mindnight-img img{
   width: 370px;
 }
-
+ 
 /* information-container */
 .information-container{
     text-align: center;
@@ -99,12 +302,12 @@ main{
     margin: 80px 60px;
     padding: 90px 10px;
 }
-
+ 
 .information-container h1 {
  font-size: 30px;
 }
-
-
+ 
+ 
 .information-container h1 span{
  color: red;
 }
@@ -117,7 +320,7 @@ main{
  font-size: 20px;
  margin-top: 20px;
 }
-
+ 
 /* best offer section style */
 .best-offer-container{
     display: flex;
@@ -132,7 +335,7 @@ color: red;
 font-size: 25px;
 }
 .best-offer-1st h1{
-
+ 
 font-size: 50px;
 font-family: Arial, Helvetica, sans-serif;
 }
@@ -141,18 +344,78 @@ font-family: Arial, Helvetica, sans-serif;
     font-family: Arial, Helvetica, sans-serif;
     color: red;
    }
-
+ 
 .best-offer-1st p{
-
+ 
 color: gray;
 }
-
+ 
 .best-offer-img-container{
     border: 15px solid red;
     border-radius: 100%;
     padding: 30px;
 }
-
+ 
 .best-offer-img{
     width: 300px;
 }
+ 
+/* holidays section style */
+.holidays-container{
+    margin-top: 100px;
+}
+.holidays-content{
+  text-align: center;
+}
+.holidays-content h4{
+  font-size: 18px;
+}
+.holidays-content h1{
+  font-size: 70px;
+}
+.holidays-content h1 span{
+ color: red;
+}
+.holidays-content p{
+ font-size: 16px;
+ color: gray;
+ 
+ text-align: center;
+}
+ 
+.holidays-image-container{
+   
+    height: 700px;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    justify-content: center;
+   
+   
+}
+.possition{
+ 
+    position: relative;
+   
+}
+ 
+.box-img{
+    position: absolute;
+    width: 500px;
+    left: 20px;
+ 
+}
+.wow-woman-img{
+    position: absolute;
+ right: -1px;
+ top: -150px;
+ width: 400px;
+}
+.percent-discount-img{
+    position: relative;
+    width: 250px;
+    right: -800px;
+    top: -110px;
+   
+}
+ 
